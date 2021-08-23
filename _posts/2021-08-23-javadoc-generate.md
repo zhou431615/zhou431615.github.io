@@ -1,4 +1,13 @@
-rake post title="javadoc生成" subtitle="Javadoc"
+---
+layout:     post
+title:      "IDEA中如何生成Javadoc"
+subtitle:   "Javadoc生成"
+date:       2021-08-23 21:00:00
+author:     "QianYe"
+
+tags:
+- architecture
+---
 
 ### Javadoc生成
 
