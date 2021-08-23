@@ -14,6 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     null
+bilibili_username:   347812470
 zhihu_username:     null
 github_username:    zhou431615
 twitter_username:   null
