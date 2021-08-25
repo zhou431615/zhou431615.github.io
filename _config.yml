@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     15107290193
-zhihu_username:     15107290193
+weibo_username:     qinaye
+zhihu_username:     yi-shang-43
 github_username:    zhou431615
-twitter_username:   15107290193
+twitter_username:   null
 #facebook_username:    qianye
 #linkedin_username:  firstname-lastname-idxxxx
 
