@@ -64,6 +64,11 @@ disqus_username: jiankangzhou
 # Netease settings
 netease_comment: true
 
+#gitment
+comment_gitment_repo: zhou431615.github.io
+comment_gitment_clientId: 2dab129bed64f43af6d2
+comment_gitment_clientSecret: 5552bdc2920e01c4c8dd226a75b82b3e6e8b136b
+
 
 
 # Analytics settings
