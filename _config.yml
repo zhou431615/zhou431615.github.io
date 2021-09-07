@@ -71,7 +71,7 @@ netease_comment: true
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 285441694        # Format: UA-xxxxxx-xx
+ga_track_id: UA-206885101-1       # Format: UA-xxxxxx-xx
 ga_domain: zhou431615.github.io
 
 
