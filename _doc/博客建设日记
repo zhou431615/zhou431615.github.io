@@ -1,0 +1,23 @@
+# 博客网站建设日记
+
+### 基于jekyll建立的github.io静态网站博客
+
+#### 在搭建此博客之前，需要：
+
+- 拥有Github以及创建xxxxxx.github.io(xxxxxx即你的用户名)
+- 掌握git使用
+- 掌握HTML、CSS、JavaScript网页设计能力
+- 安装Ruby3   RubyGems  Jekyll
+- 懂得“科学”上网
+- 仔细阅读jekyll中文文档
+- 仔细阅读github pages文档
+
+### 那就开始吧
+
+为了快速上手，选择一个美观的博客模板([模板来自黄玄，作者主页](https://github.com/huxpro))直接进行Clone
+
+```
+$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+```
+
+在模板基础上进行修改，得到自己想要的结果。

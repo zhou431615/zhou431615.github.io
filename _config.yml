@@ -27,7 +27,7 @@ linkedin_username: 健康-周-663961178
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: [ "less","node_modules","Gruntfile.js","package.json","README.md","博客模板使用手册中文版.md" ]
+exclude: [ "less","node_modules","Gruntfile.js","package.json","README.md","博客建设日记" ]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
@@ -59,10 +59,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: jiankangzhou
+disqus_username: "jiankangzhou"
 
 # Netease settings
-netease_comment: true
+netease_comment: "false"
 
 #gitment
 comment_gitment_repo: zhou431615.github.io
