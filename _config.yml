@@ -1,9 +1,9 @@
 # Site settings
-title: QianYe Blog
-SEOTitle: 种程序的千葉君
+title: 千叶 Blog
+SEOTitle: 种程序的千叶君
 header-img: img/home.png
 email: zhou431615@gmail.com
-description: "种程序的千葉君，Copy和Paste世界级大师！"
+description: "种程序的千叶君，Copy和Paste世界级大师！"
 keyword: "Java,JavaWeb,HTML,CSS,JavaScript,IDEA,WebStorm"
 url: "https://zhou431615.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -13,12 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: zhou431615
-zhihu_username: yi-shang-43
-github_username: zhou431615
-twitter_username: zhou431615
-facebook_username: jiankang.zhou.56
-linkedin_username: 健康-周-663961178
+#weibo_username: zhou431615
+#zhihu_username: yi-shang-43
+#github_username: zhou431615
+#twitter_username: zhou431615
+#facebook_username: jiankang.zhou.56
+#linkedin_username: 健康-周-663961178
 
 
 
@@ -59,15 +59,15 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: "jiankangzhou"
+disqus_username: "无"
 
 # Netease settings
 netease_comment: "false"
 
 #gitment
-comment_gitment_repo: zhou431615.github.io
-comment_gitment_clientId: 2dab129bed64f43af6d2
-comment_gitment_clientSecret: 5552bdc2920e01c4c8dd226a75b82b3e6e8b136b
+#comment_gitment_repo: zhou431615.github.io
+#comment_gitment_clientId: 2dab129bed64f43af6d2
+#comment_gitment_clientSecret: 5552bdc2920e01c4c8dd226a75b82b3e6e8b136b
 
 
 
@@ -76,14 +76,14 @@ comment_gitment_clientSecret: 5552bdc2920e01c4c8dd226a75b82b3e6e8b136b
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: UA-206885101-1       # Format: UA-xxxxxx-xx
-ga_domain: zhou431615.github.io
+ga_track_id: 'UA-206885101-1'      # Format: UA-xxxxxx-xx
+ga_domain: 'zhou431615.github.io'
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "种程序的千葉君，Copy和Paste世界级大师！"
+sidebar-about-description: "种程序的千叶君，Copy和Paste世界级大师！"
 sidebar-avatar: /img/self-image-m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -108,31 +108,10 @@ page-mathjax: true
 # Friends
 friends: [
   {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
+    #     title: "待补",
+    #     href: "https://XXXXXXX.XXX"
     # },{
-    title: "乱序（Midare）",
-    href: "http://mida.re/"
-  },{
-    title: "Sherry Woo",
-    href: "https://sherrywoo.me/"
-  },{
-    title: "Kun Qian",
-    href: "http://kunq.me"
-  },{
-    title: "Ebn Zhang",
-    href: "http://ebnbin.com/"
-  },{
-    title: "SmdCn",
-    href: "http://blog.smdcn.net"
-  },{
-    title: "JiyinYiyong",
-    href: "http://tiye.me/"
-  },{
-    title: "DHong Say",
-    href: "http://dhong.co"
-  },{
-    title: "尹峰以为",
-    href: "http://ingf.github.io/"
+    title: "Science, truth, fraternity",
+    href: "#"
   }
 ]
