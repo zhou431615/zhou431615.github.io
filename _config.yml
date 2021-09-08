@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username: zhou431615
+weibo_username: zhou431615
 #zhihu_username: yi-shang-43
-#github_username: zhou431615
-#twitter_username: zhou431615
-#facebook_username: jiankang.zhou.56
+github_username: zhou431615
+twitter_username: zhou431615
+facebook_username: jiankang.zhou.56
 #linkedin_username: 健康-周-663961178
 
 
