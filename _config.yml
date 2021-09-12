@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: "无"
+disqus_username: jiankangzhou
 
 # Netease settings
 netease_comment: "false"
@@ -90,7 +90,7 @@ sidebar-avatar: /img/self-image-m.jpg      # use absolute URL, seeing it's used 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 5              # A tag will be featured if the size of it is more than this condition value
 
 
 
