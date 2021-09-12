@@ -60,6 +60,7 @@ kramdown:
 
 # Disqus settings
 disqus_username: jiankangzhou
+comments: true
 # 还是需要将Disqus中的网址设置好，才能正常使用disqus
 
 # Netease settings
@@ -77,8 +78,8 @@ netease_comment: "false"
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-206885101-1'      # Format: UA-xxxxxx-xx
-ga_domain: 'zhou431615.github.io'
+ga_track_id: UA-206885101-1      # Format: UA-xxxxxx-xx
+ga_domain: zhou431615.github.io
 
 
 
