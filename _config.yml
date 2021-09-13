@@ -58,18 +58,17 @@ kramdown:
 
 
 
-# Disqus settings
-disqus_username: jiankangzhou
-comments: true
+# Disqus settings (舍弃)
+disqus_username: ""
 # 还是需要将Disqus中的网址设置好，才能正常使用disqus
 
-# Netease settings
+# Netease settings (舍弃)
 netease_comment: "false"
 
-#gitment
-#comment_gitment_repo: zhou431615.github.io
-#comment_gitment_clientId: 2dab129bed64f43af6d2
-#comment_gitment_clientSecret: 5552bdc2920e01c4c8dd226a75b82b3e6e8b136b
+gitment
+comment_gitment_repo: zhou431615.github.io
+comment_gitment_clientId: 2dab129bed64f43af6d2
+comment_gitment_clientSecret: 5552bdc2920e01c4c8dd226a75b82b3e6e8b136b
 
 
 
