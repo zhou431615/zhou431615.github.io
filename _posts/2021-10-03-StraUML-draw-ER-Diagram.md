@@ -37,4 +37,4 @@ E-R图也称实体-联系图(Entity Relationship Diagram)，提供了表示实�
 
 ## 那就开始绘画一个E-R图吧！
 
-![idea](https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202110071650155.png)
+<img alt="idea" src="https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202110071650155.png"/>
