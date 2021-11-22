@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Vue-echarts学习笔记"
-subtitle:   "Vue-echarts"
+title:      "Vue-echarts使用教程"
+subtitle:   "Vue-echarts学习笔记"
 date:       2021-11-10 23:00:00
 author:     "QianYe"
 
 tags:
-- VUe
+- Vue
 ---
 
 
