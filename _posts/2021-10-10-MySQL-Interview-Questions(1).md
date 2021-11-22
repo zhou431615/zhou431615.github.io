@@ -159,3 +159,70 @@ TEXT 是一个不区分大小写 的 BLOB。
 DISTINCT 在所有列上转换为 GROUP BY，并与 ORDER BY 子句结合使用。
 
  SELECT DISTINCT t1.a FROM t1,t2 where t1.a=t2.a;
+### 6、如何显示前 50 行？
+
+在 MySQL 中，使用以下代码查询显示前 50 行：
+
+SELECT * FROM
+
+LIMIT 0,50
+
+### 17、可以使用多少列创建索引？
+
+任何标准表最多可以创建 16 个索引列。
+
+### 18、NOW（）和 CURRENT_DATE（）有什么区别？
+
+NOW（）命令用于显示当前年份，月份，日期，小时，分钟和秒。 CURRENT_DATE（）仅显示当前年份，月份和日期。
+
+### 19、什么是非标准字符串类型？
+
+1、TINYTEXT 2、TEXT 3、MEDIUMTEXT 4、LONGTEXT
+
+### 20、什么是通用 SQL 函数？
+
+1.  CONCAT(A, B) – 连接两个字符串值以创建单个字符串输出。通常用于将两个 或多个字段合并为一个字段。
+2. FORMAT(X, D)- 格式化数字 X 到 D 有效数字。
+3. CURRDATE(), CURRTIME()- 返回当前日期或时间。
+4. NOW（） – 将当前日期和时间作为一个值返回。
+5. MONTH（），DAY（），YEAR（），WEEK（），WEEKDAY（） – 从日期 值中提取给定数据。
+6. HOUR（），MINUTE（），SECOND（） – 从时间值中提取给定数据。
+7. DATEDIFF（A，B） – 确定两个日期之间的差异，通常用于计算年龄
+8. SUBTIMES（A，B） – 确定两次之间的差异。
+9. FROMDAYS（INT） – 将整数天数转换为日期值。
+
+
+
+### 21、MySQL 支持事务吗？
+
+在缺省模式下，MySQL 是 autocommit 模式的，所有的数据库更新操作都会即时 提交，所以在缺省情况下，MySQL 是不支持事务的。
+
+但是如果你的 MySQL 表类型是使用 InnoDB Tables 或 BDB tables 的话，你的 MySQL 就可以使用事务处理,使用 SET AUTOCOMMIT=0 就可以使 MySQL 允许在非 autocommit 模式，在非 autocommit 模式下，你必须使用 COMMIT 来提交你的更改，或者用 ROLLBACK 来回滚你的更改。
+
+### 22、MySQL 里记录货币用什么字段类型好？
+
+NUMERIC 和 DECIMAL 类型被 MySQL 实现为同样的类型，这在 SQL92 标准允 许。他们被用于保存值，该值的准确精度是极其重要的值，例如与金钱有关的数 据。当声明一个类是这些类型之一时，精度和规模的能被(并且通常是)指定。 例如： salary DECIMAL(9,2) 在这个例子中，9(precision)代表将被用于存储值的总的小数位数，而 2(scale)代 表将被用于存储小数点后的位数。 因此，在这种情况下，能被存储在 salary 列中的值的范围是从-9999999.99 到 9999999.99。
+
+### 23、MySQL 有关权限的表都有哪几个？
+
+MySQL 服务器通过权限表来控制用户对数据库的访问，权限表存放在 MySQL 数 据库里，由 MySQL_install_db 脚本初始化。这些权限表分别 user，db，table_priv， columns_priv 和 host。
+
+### 24、列的字符串类型可以是什么？
+
+字符串类型是：
+
+1. SET
+2. BLOB
+3. ENUM
+4. CHAR
+5. TEXT
+
+### 25、MySQL 数据库作发布系统的存储，一天五万条以上的增量， 预计运维三年,怎么优化？
+
+1. 设计良好的数据库结构，允许部分数据冗余，尽量避免 join 查询，提高效率。
+2. 选择合适的表字段数据类型和存储引擎，适当的添加索引。
+3. MySQL 库主从读写分离。
+4. 找规律分表，减少单表中的数据量提高查询速度。
+5. 添加缓存机制，比如 memcached，apc 等。
+6. 不经常改动的页面，生成静态页面。
+7. 书写高效率的 SQL。比如 SELECT * FROM TABEL 改为 SELECT field_1, field_2, field_3 FROM TABLE.
