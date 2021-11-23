@@ -2,7 +2,7 @@
 layout:     post
 title:      "MySQL调优(一)"
 subtitle:   "MySQL学习笔记"
-date:       2021-10-11 23:00:00
+date:       2021-10-09 23:00:00
 author:     "QianYe"
 
 tags:
