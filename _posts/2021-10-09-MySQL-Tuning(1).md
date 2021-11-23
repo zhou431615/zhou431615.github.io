@@ -74,7 +74,7 @@ tags:
 show status
 ```
 
-<img alt="image-20211123115308671" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747487.png"/>
+![image-20211123115308671](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747487.png)
 
 这里需要注意一下 show status 命令中可以添加统计结果的级别，这个级别有两个
 
@@ -91,7 +91,7 @@ show status
 show status like 'Com_%'
 ```
 
-<img alt="image-20211123152854906" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747237.png"/>
+![image-20211123152854906](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747237.png)
 
 Com_xxx 表示的是每个 xxx 语句执行的次数，我们通常关心的是 select 、insert 、update、delete 语句的执行次数，即
 
@@ -116,7 +116,7 @@ Com_xxx 表示的是每个 xxx 语句执行的次数，我们通常关心的是 
 - Slow_queries：满查询次数。
 - Threads_connected：查看当前打开的连接的数量。
 
-<img alt="image-20211123153448961" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747296.png"/>
+![image-20211123153448961](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747296.png)
 
 > 更多的参数就不一一详解
 
@@ -158,7 +158,7 @@ long_query_time = 2
 show variables like "%slow%";
 ```
 
-<img alt="image-20211123155157728" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747418.png"/>
+![image-20211123155157728](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747418.png)
 
 如未开器，开启慢查询日志。如已开始，无需此操作。
 
@@ -176,7 +176,7 @@ set global slow_query_log='ON';
 show  peocesslist
 ```
 
-<img alt="image-20211123162013678" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747560.png"/>
+![image-20211123162013678](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747560.png)
 
 下面就来解释一下各个字段对应的概念
 
@@ -205,7 +205,7 @@ show  peocesslist
 
 下图是MySQL执行一个查询的过程。实际上每一步都比想象中的复杂，尤其优化器，更复杂也更难理解。
 
-<img src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747840.png"/>
+![](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231747840.png)
 
 
 
@@ -223,7 +223,7 @@ MySQL查询过程如下：
 
 例如：某一条explain的SQL的执行计划
 
-<img alt="image-20211123170137146" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748340.png"/>
+![image-20211123170137146](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748340.png)
 
 > 对于DataGrip工具，选中SQL语句右键`Explain Plan (raw)`
 
@@ -373,7 +373,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748922.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748922.webp)
 
 
 
@@ -384,7 +386,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748954.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748954.webp)
 
 
 
@@ -399,7 +403,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748199.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748199.webp)
 
 
 
@@ -410,7 +416,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748671.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748671.webp)
 
 
 
@@ -431,7 +439,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748732.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748732.webp)
 
 
 
@@ -453,7 +463,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748844.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748844.webp)
 
 
 
@@ -468,7 +480,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748357.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748357.webp)
 
 
 
@@ -481,7 +495,9 @@ CREATE TABLE `t_group`  (
    复制代码
    ```
 
-<img alt="执行计划" src="https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748034.webp"/>
+
+
+![执行计划](https://zhou431615-myblog.oss-cn-beijing.aliyuncs.com/blogPic/202111231748034.webp)
 
 
 
