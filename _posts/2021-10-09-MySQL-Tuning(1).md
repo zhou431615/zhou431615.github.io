@@ -6,7 +6,7 @@ date:       2021-10-09 23:00:00
 author:     "QianYe"
 
 tags:
-- Finance
+- MySQL
 ---
 
 ## MySQL调优(一)（学习笔记）
