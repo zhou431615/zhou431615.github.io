@@ -6,7 +6,7 @@ date:       2021-08-23 21:00:00
 author:     "QianYe"
 
 tags:
- - architecture
+ - Architecture
 ---
 
 ## 常见2种软件开发体系架构(C/S和B/S)

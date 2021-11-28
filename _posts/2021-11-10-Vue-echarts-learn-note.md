@@ -10,7 +10,7 @@ tags:
 ---
 
 
-## Vue-echarts学习笔记(无脑版上手)
+## Vue-echarts学习笔记
 
 ### 一、什么是Echarts？什么是Vue-echarts?
 
@@ -18,7 +18,7 @@ tags:
 
 先了解一下，Echarts有哪些例子吧。 [官网例子](https://echarts.apache.org/examples/zh/index.html#chart-type-line)
 
-![image-20211110185231422](https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202111101852215.png)
+![image-20211128140525455](https://mybolg-typora.oss-cn-beijing.aliyuncs.com/blogPic/202111281405681.png)
 
 您还需阅读Echarts的文档资料，里面介绍了获取Echarts的方式和在项目(开发环境使用npm包管理方式)中引入Echarts的操作流程。由于本项目是Vue-cli开发(version 2.9.6),就不再采用普通的Echart引入方式，选用Vue-echart，开发更方便。
 
@@ -117,7 +117,7 @@ option:{
 
 到这里，就在页面绘画出一个简单的折线图，看看效果。
 
-<img src="https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202111102308350.png" alt="image-20211110220639702" style="zoom:67%;" />
+![image-20211128140623402](https://mybolg-typora.oss-cn-beijing.aliyuncs.com/blogPic/202111281406806.png)
 
 ### 三、在项目中使用Vue-Echarts
 
@@ -125,7 +125,7 @@ option:{
 
 从头到尾，有这么多配置项。
 
-![image-20211110223315002](https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202111102311733.png)
+![image-20211128140801115](https://mybolg-typora.oss-cn-beijing.aliyuncs.com/blogPic/202111281408980.png)
 
 例如，如下例子echart.vue组件，使用了一些基本的配置，并且自定义了主题。（主题文件，可到Echarts官网进行配置，在下载到本项目）
 
@@ -253,11 +253,11 @@ registerTheme("ovilia-green", theme);
 
 来一起，看看效果吧。
 
-![Vue-echarts柱形图](https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202111102313834.png)
+![image-20211128141250804](https://mybolg-typora.oss-cn-beijing.aliyuncs.com/blogPic/202111281412194.png)
 
-最后，来看看一个完整的案例,几乎使用到所有配置项(折线图)
+最后，来看看一个完整的案例,几乎使用到所有配置项(以折线图为例)
 
-<img src="https://raw.githubusercontent.com/zhou431615/GithubForDemo/master/demo/img/202111102313196.png" alt="image-20211110222603281" style="zoom:98%;" />
+![image-20211128140925649](https://mybolg-typora.oss-cn-beijing.aliyuncs.com/blogPic/202111281409353.png)
 
 思考一下，这张图使用那些配置？？
 
